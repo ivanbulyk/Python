@@ -16,6 +16,5 @@ def scrape(username):
     return main_text
 
 USERNAME = input("Enter name of user account please: ")
-#USERNAME = "main_project_"
 data = scrape(USERNAME)
 print(data)
